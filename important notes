@@ -1,0 +1,20 @@
+in pom first step is page layers you have to define your pages then create packages then create page classes 
+
+   1.creating config properties under config package it is important in pom and storing all my data in config prop as a key and value format 
+   
+   2.inside the base page im definig my web driver creating two generic method one for initializing browser 
+   second method reading property file from properties file after init web driver return driver and after init prop return prop driver 
+   
+   3. going login page extends base page   keep in the mind in every page we have to create login page object 
+   in every page has to has page object BY Or
+   and page actions like creating generic method do login, get page title, verify signup link its has to be sequently once login page created finished 
+   then start to write login page test class 
+   
+   4. in test package we write test annotations 
+   before method after method 
+   then init my prop file because before driver i need to read prop in set up method 
+   
+   
+   note: never write any method which is starting driver. inside testNG test classes its very bad approach 
+   another thing never write any assertion in page classes assertion has to implement inside the test class in testNG 
+   pages should return either driver or new page or something else never assertion in page 
