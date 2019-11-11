@@ -3,6 +3,14 @@
 
 <suite name="Hub Spot Test Suite" verbose="5">
 
+<!-- 
+	 <listeners>
+		<listener class-name="hubspot.TestListeners.ExtentReportListener" />
+ 		<listener class-name="hubspot.TestListeners.TestAllureListener" />
+
+	</listeners>
+ -->
+
 	<test name="hub spot regression Test">
 		<classes>
 			<class name="com.Hubspot.Test.LoginPageTest" />

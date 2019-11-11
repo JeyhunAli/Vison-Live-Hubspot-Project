@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="21243" started-at="2019-11-11T17:19:09 EST" finished-at="2019-11-11T17:19:30 EST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="21243" started-at="2019-11-11T17:19:09 EST" finished-at="2019-11-11T17:19:30 EST">
+      <class name="com.Hubspot.Test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Hubspot.Test.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="7209" started-at="2019-11-11T17:19:18 EST" finished-at="2019-11-11T17:19:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPagTitleTest()[pri:1, instance:com.Hubspot.Test.LoginPageTest@1794d431]" name="verifyLoginPagTitleTest" duration-ms="8" started-at="2019-11-11T17:19:26 EST" finished-at="2019-11-11T17:19:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPagTitleTest -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.Hubspot.Test.LoginPageTest@1794d431]" name="verifySignUpLinkTest" duration-ms="34" started-at="2019-11-11T17:19:26 EST" finished-at="2019-11-11T17:19:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.Hubspot.Test.LoginPageTest@1794d431]" name="loginTest" duration-ms="3749" started-at="2019-11-11T17:19:26 EST" finished-at="2019-11-11T17:19:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="ShowPasswordTest()[pri:4, instance:com.Hubspot.Test.LoginPageTest@1794d431]" name="ShowPasswordTest" duration-ms="596" started-at="2019-11-11T17:19:29 EST" finished-at="2019-11-11T17:19:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Hubspot.Test.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="97" started-at="2019-11-11T17:19:30 EST" finished-at="2019-11-11T17:19:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hubspot.Test.LoginPageTest -->
+      <class name="com.Hubspot.Test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Hubspot.Test.HomePageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="9391" started-at="2019-11-11T17:19:09 EST" finished-at="2019-11-11T17:19:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.Hubspot.Test.HomePageTest@39c0f4a]" name="verifyHomePageTitleTest" duration-ms="12" started-at="2019-11-11T17:19:25 EST" finished-at="2019-11-11T17:19:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHeaderTest()[pri:2, instance:com.Hubspot.Test.HomePageTest@39c0f4a]" name="verifyHeaderTest" duration-ms="73" started-at="2019-11-11T17:19:25 EST" finished-at="2019-11-11T17:19:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderTest -->
+        <test-method status="PASS" signature="verifyLogedInUser()[pri:3, instance:com.Hubspot.Test.HomePageTest@39c0f4a]" name="verifyLogedInUser" duration-ms="49" started-at="2019-11-11T17:19:25 EST" finished-at="2019-11-11T17:19:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogedInUser -->
+      </class> <!-- com.Hubspot.Test.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

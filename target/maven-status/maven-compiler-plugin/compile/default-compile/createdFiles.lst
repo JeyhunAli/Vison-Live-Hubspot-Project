@@ -1,1 +1,7 @@
-visionProject/VisionLiveProject/App.class
+com/HubspotUtility/ExcelUtility.class
+com/HubspotUtility/ElementUtility.class
+com/qa/HubsPot/Pages/HomePage.class
+com/qa/HubsPot/Pages/ContactsPage.class
+com/Hubspot/Base/BasePage.class
+com/qa/HubsPot/Pages/LoginPage.class
+com/HubspotUtility/Constants.class
